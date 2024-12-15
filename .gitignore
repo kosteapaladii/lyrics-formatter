@@ -25,3 +25,18 @@ src/services/githubConfig.js
 *.njsproj
 *.sln
 *.sw?
+
+# Check status of changes
+git status
+
+# Add all changes
+git add .
+
+# Commit changes
+git commit -m "Add lyrics synchronization with GitHub Gists"
+
+# Push to GitHub
+git push origin main
+
+# Deploy to GitHub Pages
+npm run deploy
